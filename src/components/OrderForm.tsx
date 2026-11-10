@@ -52,7 +52,7 @@ export default function OrderForm({ onRegistrar, onOcultarConfirmacion }: OrderF
       <Text style={styles.label}>Producto solicitado</Text>
       <TextInput
         style={styles.input}
-        placeholder="Ej: Camiseta"
+        placeholder="Ej: Manzana"
         value={producto}
         onChangeText={setProducto}
       />
